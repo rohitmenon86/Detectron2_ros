@@ -46,8 +46,17 @@ catkin_python_setup()
 
 add_message_files(
   FILES
-    Result.msg
+  Result.msg
 )
+
+
+
+## Generate services in the 'srv' folder
+add_service_files(
+  FILES
+  DetectObjects.srv
+)
+
 
 
 generate_messages(

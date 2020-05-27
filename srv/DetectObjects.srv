@@ -1,0 +1,3 @@
+sensor_msgs/Image image
+---
+detectron2_ros/Result result
